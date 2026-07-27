@@ -1,1 +1,1 @@
-# projeto-back-front-mobile-2tri-danielly-rodrigues-e-laura-brisk-
+# projeto-integrador-3ds-canto-do-saber
