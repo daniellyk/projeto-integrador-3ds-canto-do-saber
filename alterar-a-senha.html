@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alterar Senha</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Canto do saber</h1>
+
+        <form id="passwordForm">
+            <div class="form-group">
+                <label for="currentPassword">Senha atual</label>
+                <input type="password" id="currentPassword" />
+            </div>
+
+            <div class="form-group">
+                <label for="newPassword">Nova senha</label>
+                <input type="password" id="newPassword" />
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirme a nova senha</label>
+                <input type="password" id="confirmPassword" />
+            </div>
+
+            <button type="submit" class="btn-change">Alterar senha</button>
+        </form>
+
+        <div class="divider">
+            <span>Ou</span>
+        </div>
+
+        <a href="#" class="forgot-link">Não lembro a senha</a>
+    </div>
+
+    <script>
+        document.getElementById('passwordForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const currentPassword = document.getElementById('currentPassword').value;
+            const newPassword = document.getElementById('newPassword').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (currentPassword === '') {
+                alert('Por favor, digite a senha atual');
+                return;
+            }
+
+            if (newPassword === '') {
+                alert('Por favor, digite a nova senha');
+                return;
+            }
+
+            if (newPassword.length < 6) {
+                alert('A nova senha deve ter pelo menos 6 caracteres');
+                return;
+            }
+
+            if (newPassword !== confirmPassword) {
+                alert('As senhas não coincidem!');
+                return;
+            }
+
+            alert('Senha alterada com sucesso!');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
