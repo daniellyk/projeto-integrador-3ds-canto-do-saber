@@ -1,103 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>canto do saber</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canto do Saber - Feed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <header class="navbar">
-    <div class="nav-left">
-      <button class="menu-btn" aria-label="Menu">
-      </button>
-      <a href="#" class="logo">canto do saber</a>
-    </div>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./images/Captura de tela 2026-06-24 075903.png" alt="Logo">
+                <h2>Canto do Saber</h2>
+            </div>
 
-    <div class="search-bar">
-      <span class="search-icon">botao pesquisa</span>
-      <input type="text" placeholder="pesquise aqui">
-    </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar no Canto do Saber...">
+            </div>
 
-    <div class="nav-right">
-      <button class="user-btn">Perfil</button>
-    </div>
-  </header>
-
-  <div class="container">
-    
-    <main class="feed">
-
-      <article class="post-card">
-        <div class="post-header">
-          <img src="https://via.placeholder.com/40" alt="Ygona Moura" class="avatar">
-          <div class="user-info">
-            <span class="username">Ygona Moura</span>
-          </div>
+            <div class="user-actions">
+                <button class="btn-primary">Criar Post</button>
+            </div>
         </div>
-        
-        <div class="post-content">
-          <p>oi nao peguem covid</p>
-        </div>
+    </header>
 
-        <div class="post-footer">
-          <button class="action-btn"> 44 curtidas</button>
-          <button class="action-btn"> 7 respostas</button>
-          <button class="action-btn"> compartilhar</button>
-        </div>
-      </article>
+    <main class="main-layout">
+        <section class="feed">
 
-      <article class="post-card">
-        <div class="post-header">
-          <img src="https://cdn-images.dzcdn.net/images/cover/9f732640c959cc34ad0808c1d8f6cc53/1900x1900-000000-80-0-0.jpg" alt="Pibble" class="avatar">
-          <div class="user-info">
-            <span class="username">couttinha</span>
-          </div>
-        </div>
-        
-        <div class="post-content">
-          <p>pipipipapo</p>
-        </div>
+                <div class="post-main">
+                    <header class="post-header">
+                        <img src="./images/avatar-placeholder.png" alt="Avatar" class="avatar">
+                        <span class="community-name">c/tecnologia</span>
+                        <span class="post-author">oi</span>
+                    </header>
 
-        <div class="post-footer">
-          <button class="action-btn">25 curtidas</button>
-          <button class="action-btn"> 3 respostas</button>
-          <button class="action-btn"> compartilhar</button>
-        </div>
-      </article>
+                    <h3 class="post-title">cristo</h3>
+                    <p class="post-body">
+                       a
+                    </p>
 
-      <article class="post-card">
-        <div class="post-header">
-          <img src="https://uploads.observatoriog.com.br/2026/07/rOQ1vfEq-FAMOSOS.webp alt="Pibble" class="avatar">
-          <div class="user-info">
-            <span class="username">mayazinha</span>
-          </div>
-        </div>
-        
-        <div class="post-content">
-          <p>pipipipapo</p>
-        </div>
+                    <footer class="post-footer">
+                        <button class="action-btn">os</button>
+                        <button class="action-btn">Compartilhar</button>
+                        <button class="action-btn"> Salvar</button>
+                    </footer>
+                </div>
+            </article>
 
-        <div class="post-footer">
-          <button class="action-btn">25 curtidas</button>
-          <button class="action-btn"> 3 respostas</button>
-          <button class="action-btn"> compartilhar</button>
-        </div>
-      </article>
+                <div class="post-main">
+                    <header class="post-header">
+                        <img src="./images/avatar-placeholder.png" alt="Avatar" class="avatar">
+                        <span class="community-name">64738920</span>
+                        <span class="post-author">0</span>
+                    </header>
 
-    </main>
+                    <h3 class="post-title">4936750928650298650984659386</h3>
+                    <p class="post-body">
+                        nao
+                    </p>
 
-    <aside class="sidebar">
-      <div class="sidebar-card">
-        <h3>Sobre a Comunidade</h3>
-        <p>Bem-vindo ao feed! Espaço para compartilhar e interagir com publicações.</p>
-      </div>
-    </aside>
+                    <footer class="post-footer">
+                        <button class="action-btn">like</button>
+                        <button class="action-btn">compartilhar</button>
+                        <button class="action-btn">salvar9yeb9yw</button>
+                    </footer>
+                </div>
+            </article>
 
-  </div>
-
+        </section>
+        <script src="script.js"></script>
 </body>
+
 </html>
