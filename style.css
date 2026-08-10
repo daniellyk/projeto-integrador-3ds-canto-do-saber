@@ -51,18 +51,18 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: #000000 !important;
   color: var(--text-main);
   min-height: 100vh;
+  padding-bottom: 80px; 
 }
 
 .navbar {
-  background-color: var(--card-bg);
-  border-bottom: 1px solid var(--border-color);
+  background-color: transparent;
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 10px 16px;
+  padding: 16px;
 }
 
 .nav-container {
@@ -70,9 +70,89 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  justify-content: flex-start;
 }
+
+
+.nav-left-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #000;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+
+.bottom-nav {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #000;
+  padding: 8px 16px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+}
+
+.btn-add {
+  background-color: var(--primary);
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-box {
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+}
+
+.icon-badge-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.badge-dot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.badge-dot.red {
+  background-color: #ff0000;
+}
+
+.badge-dot.orange {
+  background-color: #ffaa00;
+}
+
 
 .nav-logo {
   display: flex;
