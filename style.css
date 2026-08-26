@@ -200,9 +200,6 @@ body {
   background-color: #ff0000;
 }
 
-.badge-dot.orange {
-  background-color: #ffaa00;
-}
 
 
 .btn-primary {
@@ -629,6 +626,7 @@ body {
   color: var(--text-main);
   text-decoration: underline;
 }
+
 .navbar {
   max-width: 100% !important;
   width: 100% !important;
@@ -658,3 +656,22 @@ body {
   top: 0px !important;
   right: 0px !important;
 }
+
+.card-container {
+  background-color: #000000;
+  width: 100%;
+  max-width: 380px;
+  padding: 30px 20px;
+  border-radius: 8px;
+  text-align: left;
+  margin: auto;
+}
+
+.logo-area {
+  text-align: center;
+}
+
+.input-group {
+  font-family: 'Poppins', sans-serif;
+}
+
