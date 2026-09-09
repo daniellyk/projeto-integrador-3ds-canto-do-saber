@@ -57,7 +57,7 @@ body {
   padding-bottom: 90px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -155,7 +155,7 @@ body {
   border: none;
   color: #fff;
   cursor: pointer;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   width: 20px;
@@ -222,7 +222,7 @@ body {
 .main-layout {
   width: 100%;
   max-width: 1000px;
-  margin: 12px auto;
+  margin: 0 auto;
   padding: 0 12px;
   display: grid;
   grid-template-columns: 1fr 300px;

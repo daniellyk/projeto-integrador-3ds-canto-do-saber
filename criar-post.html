@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar post</title>
+    <link rel="stylesheet" href="criarpost.css">
+</head>
+
+<body>
+    <main class="post-editor">
+        <header class="top-bar">
+            <button type="button" class="close-button" onclick="history.back()">×</button>
+            <button type="button" class="publish-button">postar</button>
+        </header>
+
+        <button type="button" class="topic-button">selecione o tópico</button>
+
+        <input class="title" type="text" placeholder="título">
+
+        <div class="post-text" contenteditable="true" data-placeholder="texto do post"></div>
+
+        <div class="toolbar">
+            <button type="button" data-command="bold"><b>N</b></button>
+            <button type="button" data-command="italic"><i>I</i></button>
+            <button type="button" data-command="underline"><u>S</u></button>
+            <button type="button" data-command="strikeThrough"><s>T</s></button>
+            <button type="button" data-command="justifyLeft">☰</button>
+            <button type="button" data-command="justifyCenter">≡</button>
+            <button type="button" data-command="justifyRight">☷</button>
+        </div>
+    </main>
+
+    <script src="criar-post.js"></script>
+</body>
+
+</html>
