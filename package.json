@@ -1,8 +1,18 @@
 {
+<<<<<<< HEAD
+=======
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+>>>>>>> e5d8fdb72a9ad3ebcf2dc52505aa81e53a644ee6
   "name": "projeto-integrador-3ds-canto-do-saber",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+<<<<<<< HEAD
+=======
+  "devDependencies": {},
+>>>>>>> e5d8fdb72a9ad3ebcf2dc52505aa81e53a644ee6
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +23,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/daniellyk/projeto-integrador-3ds-canto-do-saber/issues"
@@ -24,4 +35,10 @@
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3"
   }
+=======
+  "bugs": {
+    "url": "https://github.com/daniellyk/projeto-integrador-3ds-canto-do-saber/issues"
+  },
+  "homepage": "https://github.com/daniellyk/projeto-integrador-3ds-canto-do-saber#readme"
+>>>>>>> e5d8fdb72a9ad3ebcf2dc52505aa81e53a644ee6
 }
