@@ -83,7 +83,7 @@ app.post('/usuarios/login', (req, res) => {
     },
     JWT_SECRET,
     {
-      expiresIn: '8h'
+      expiresIn: '150h'
     }
   );
 

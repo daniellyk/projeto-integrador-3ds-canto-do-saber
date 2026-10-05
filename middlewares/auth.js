@@ -1,4 +1,4 @@
-// middlewares/auth.js
+
 const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = "sua_chave_secreta_para_testes";

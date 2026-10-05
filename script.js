@@ -15,5 +15,3 @@ toggleButton.addEventListener('click', () => {
   }
 });
 
-
-
