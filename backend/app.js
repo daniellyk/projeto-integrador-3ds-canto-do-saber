@@ -695,6 +695,9 @@ app.get('/notificacoes', autenticarToken, (req, res) => {
   return res.json(minhasNotificacoes);
 });
 
+const criarRotasRecuperacao = require('./recuperacao-senha');
+app.use('/recuperacao', criarRotasRecuperacao(usuarios, JWT_SECRET));
+
 const PORT = 3000;
 
 app.listen(PORT, () => {

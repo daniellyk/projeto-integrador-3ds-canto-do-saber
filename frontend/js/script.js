@@ -3,7 +3,7 @@ const toggleButton = document.getElementById('toggle-password');
 const eyeOpen = document.getElementById('eye-open');
 const eyeClosed = document.getElementById('eye-closed');
 
-toggleButton.addEventListener('click', () => {
+if (toggleButton) toggleButton.addEventListener('click', () => {
   if (passwordInput.type === 'password') {
     passwordInput.type = 'text';
     eyeClosed.classList.add('hidden');
